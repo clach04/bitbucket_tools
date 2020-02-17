@@ -46,7 +46,7 @@ needs to manually copy/pasted 
 
 WIP can this be scrapped?
 
-avatar in meta data is available (redirects, usually to AWS) but is small version
+avatar (two of them) in meta data is available (redirects, usually to AWS) but is small version cropped version and larger-uncropped (proabbly not original size)
 
     curl https://api.bitbucket.org/2.0/repositories/clach04/jython/
 
