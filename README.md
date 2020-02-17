@@ -62,6 +62,7 @@ https://docs.gitlab.com/ee/user/project/import/bitbucket.html  claims to support
       * https://gist.github.com/maghoff/2b86e4ca3208a5ce443b35c5860c8a4d
   * https://bitbucket.org/edrandall/bitbucket-hg-to-git - BitBucket to BitBucket git.
 
+### Migration items
 
 #### project description
 
@@ -83,6 +84,8 @@ needs to manually set (note you may not be able to get the original image that w
 #### Issues / history / attachments
 
 WIP
+
+https://confluence.atlassian.com/bitbucket/export-or-import-issue-data-330797432.html?_ga=2.39865826.1751265516.1572798592-1434613483.1567279842
 
 https://github.com/jeffwidman/bitbucket-issue-migration
 
