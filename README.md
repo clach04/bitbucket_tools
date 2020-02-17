@@ -34,6 +34,14 @@ UNTESTED
 
 https://github.com/jeffwidman/bitbucket-issue-migration
 
+
+### .hgignore to .gitignore
+
+UNTESTED
+
+Perl script - not sure how complete
+https://github.com/devzendo/hgignore-to-gitignore
+
 ## Migrating away from BitBucket
 
 Lots of options, none complete.
