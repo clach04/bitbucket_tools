@@ -28,6 +28,13 @@ UNTESTED - appears to handle private? Partially handles wiki
 https://magnushoff.com/blog/kick-the-bitbucket/
 
 
+### bitbucket-issues-to-github
+
+UNTESTED
+
+https://github.com/fkirc/bitbucket-issues-to-github
+
+
 ### bitbucket-issue-migration
 
 UNTESTED
@@ -87,7 +94,8 @@ WIP
 
 https://confluence.atlassian.com/bitbucket/export-or-import-issue-data-330797432.html?_ga=2.39865826.1751265516.1572798592-1434613483.1567279842
 
-https://github.com/jeffwidman/bitbucket-issue-migration
+  * https://github.com/fkirc/bitbucket-issues-to-github
+  * https://github.com/jeffwidman/bitbucket-issue-migration
 
     curl https://api.bitbucket.org/2.0/repositories/clach04/jython/issues  # no issues example
 
