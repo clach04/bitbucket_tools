@@ -18,10 +18,12 @@ Also includes a tool convert_to_git (recommend bitbucket-hg-to-git instead)
 
 https://bitbucket.org/edrandall/bitbucket-hg-to-git
 
-creates new BitBucket git repos from mercurial ones. Handles some meta data/tags.
+creates new BitBucket git repos from mercurial ones. Handles some meta data/tags -  handles meta data link description and private repos.
 
 
 ### kick the bitbucket escape-bitbucket
+
+UNTESTED - appears to handle private? Partially handles wiki
 
 https://magnushoff.com/blog/kick-the-bitbucket/
 
