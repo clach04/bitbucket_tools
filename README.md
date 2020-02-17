@@ -51,6 +51,9 @@ WIP
 
 https://github.com/jeffwidman/bitbucket-issue-migration
 
+    curl https://api.bitbucket.org/2.0/repositories/clach04/jython/issues  # no issues example
+
+use V2 api to see if there issues at all
 
 ### PRs / history
 
