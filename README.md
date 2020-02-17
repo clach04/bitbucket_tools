@@ -54,6 +54,8 @@ GitHub's code/history import https://github.com/new/import worked well for me t
 * Downloads
 * wiki
 
+https://docs.gitlab.com/ee/user/project/import/bitbucket.html  claims to support issues (unclear about attachments), PRs, and wiki. does NOT list downloads.
+
 ### Migration tools
 
  * https://magnushoff.com/blog/kick-the-bitbucket/ - bash/shell script for moving to GitHub
