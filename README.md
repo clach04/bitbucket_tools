@@ -35,6 +35,8 @@ GitHub's code/history import https://github.com/new/import worked well for me t
 * PRs / history
 * Downloads
 * wiki
+
+
 ### project description
 
 needs to manually copy/pasted 
@@ -88,6 +90,8 @@ where name is in array from above
 ### wiki
 
 WIP anyway to create initial wiki page? No API, potentially could scrap/robot webpage
+
+wiki declared in meta data with `has_wiki` attribute (see "project description").
 
 Create an initial page and then force push the new git repo. The wiki content will need to be edited:
 
