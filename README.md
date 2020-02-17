@@ -80,7 +80,10 @@ each download:
 
 https://developer.atlassian.com/bitbucket/api/2/reference/resource/repositories/%7Bworkspace%7D/%7Brepo_slug%7D/downloads/%7Bfilename%7D
 
-TODO example
+where name is in array from above
+
+    curl -S -L https://api.bitbucket.org/2.0/repositories/clach04/jython/downloads/jython251hacked_nopydoc.jar --output jython251hacked_nopydoc.jar
+
 
 ### wiki
 
