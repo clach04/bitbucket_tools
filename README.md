@@ -20,6 +20,12 @@ https://bitbucket.org/edrandall/bitbucket-hg-to-git
 
 creates new BitBucket git repos from mercurial ones. Handles some meta data/tags.
 
+
+### kick the bitbucket escape-bitbucket
+
+https://magnushoff.com/blog/kick-the-bitbucket/
+
+
 ### bitbucket-issue-migration
 
 https://github.com/jeffwidman/bitbucket-issue-migration
@@ -39,6 +45,8 @@ GitHub's code/history import https://github.com/new/import worked well for me t
 ### Migration tools
 
  * https://magnushoff.com/blog/kick-the-bitbucket/ - bash/shell script for moving to GitHub
+      * https://gist.github.com/maghoff/2b86e4ca3208a5ce443b35c5860c8a4d
+  * https://bitbucket.org/edrandall/bitbucket-hg-to-git - BitBucket to BitBucket git.
 
 
 #### project description
