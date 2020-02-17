@@ -97,6 +97,16 @@ https://confluence.atlassian.com/bitbucket/export-or-import-issue-data-330797432
   * https://github.com/fkirc/bitbucket-issues-to-github
   * https://github.com/jeffwidman/bitbucket-issue-migration
 
+
+From https://www.reddit.com/r/mercurial/comments/elu3m7/migrating_from_bitbucket_to_github/
+
+> arganoid
+> 
+> I have now tried the second script. Overall I would say the first is quicker and easier, as with the second one you have to export issues via the Bitbucket interface, and also generate an API key from Github. The first script just uses your Bitbucket and GitHub passwords (although that could be a security risk if you don't trust the script).
+> 
+> I noticed the issues brought across by the first script retained their timestamps whereas the second one saves issues with the current time, albeit with a note in the text indicating the original date
+
+
     curl https://api.bitbucket.org/2.0/repositories/clach04/jython/issues  # no issues example
 
 use V2 api to see if there issues at all
