@@ -69,10 +69,18 @@ use V2 api to see if there issues at all
 
 WIP
 
+meta data and list:
+
 https://developer.atlassian.com/bitbucket/api/2/reference/resource/repositories/%7Bworkspace%7D/%7Brepo_slug%7D/downloads#get
 
     curl https://api.bitbucket.org/2.0/repositories/clach04/dava33display/downloads  # no downloads
     curl https://api.bitbucket.org/2.0/repositories/clach04/jython/downloads
+
+each download:
+
+https://developer.atlassian.com/bitbucket/api/2/reference/resource/repositories/%7Bworkspace%7D/%7Brepo_slug%7D/downloads/%7Bfilename%7D
+
+TODO example
 
 ### wiki
 
