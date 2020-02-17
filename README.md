@@ -36,15 +36,19 @@ GitHub's code/history import https://github.com/new/import worked well for me t
 * Downloads
 * wiki
 
+### Migration tools
 
-### project description
+ * https://magnushoff.com/blog/kick-the-bitbucket/ - bash/shell script for moving to GitHub
+
+
+#### project description
 
 needs to manually copy/pasted 
 
     curl https://api.bitbucket.org/2.0/repositories/clach04/jython/
 
 
-### project logo/avatar/image
+#### project logo/avatar/image
 
 WIP can this be scrapped?
 
@@ -54,7 +58,7 @@ avatar (two of them) in meta data is available (redirects, usually to AWS) but i
 
 needs to manually set (note you may not be able to get the original image that was used to upload, only a scaled-down copy unless you have the original stored somewhere)
 
-### Issues / history / attachments
+#### Issues / history / attachments
 
 WIP
 
@@ -64,10 +68,10 @@ https://github.com/jeffwidman/bitbucket-issue-migration
 
 use V2 api to see if there issues at all
 
-### PRs / history
+#### PRs / history
 
 
-### Downloads
+#### Downloads
 
 WIP
 
@@ -87,7 +91,7 @@ where name is in array from above
     curl -S -L https://api.bitbucket.org/2.0/repositories/clach04/jython/downloads/jython251hacked_nopydoc.jar --output jython251hacked_nopydoc.jar
 
 
-### wiki
+#### wiki
 
 WIP anyway to create initial wiki page? No API, potentially could scrap/robot webpage
 
