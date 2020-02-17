@@ -39,9 +39,16 @@ GitHub's code/history import https://github.com/new/import worked well for me t
 
 needs to manually copy/pasted 
 
+    curl https://api.bitbucket.org/2.0/repositories/clach04/jython/
+
+
 ### project logo/avatar/image
 
 WIP can this be scrapped?
+
+avatar in meta data is available (redirects, usually to AWS) but is small version
+
+    curl https://api.bitbucket.org/2.0/repositories/clach04/jython/
 
 needs to manually set (note you may not be able to get the original image that was used to upload, only a scaled-down copy unless you have the original stored somewhere)
 
