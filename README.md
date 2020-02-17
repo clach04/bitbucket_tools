@@ -51,7 +51,7 @@ https://github.com/devzendo/hgignore-to-gitignore
 
 ## Migrating away from BitBucket
 
-Lots of options, none complete.
+Lots of options, none complete. https://medium.com/collaborne-engineering/how-to-migrate-a-private-repository-from-bitbucket-to-github-6cddedd5d73 is a good overview on manually migrating **code only**.
 
 GitHub's code/history import https://github.com/new/import worked well for me to import and convert a Mercurial code repo. It does not handle:
 * project description - needs to manually copy/pasted 
