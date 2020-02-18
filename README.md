@@ -35,6 +35,11 @@ UNTESTED - appears to handle private? Partially handles wiki
 
 https://magnushoff.com/blog/kick-the-bitbucket/
 
+### bitbucket-backup
+
+UNTESTED - appears to be code and wiki only, appears to handle OAuth
+
+https://github.com/samkuehn/bitbucket-backup
 
 ### bitbucket-issues-to-github
 
