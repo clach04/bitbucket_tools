@@ -4,6 +4,14 @@ random tools for dealing with bitbucket.org repos
 
 Getting my notes off my machine and in a shareable state.
 
+TL;DR check out:
+
+  * https://bitbucket.org/edrandall/bitbucket-hg-to-git/
+  * https://magnushoff.com/blog/kick-the-bitbucket/
+  * https://docs.gitlab.com/ee/user/project/import/bitbucket.html
+  * or https://github.com/clach04/bitbucket_tools/blob/master/dump_repos.py which will export everything (project meta data, logo/avatar, issue text, download metadata and downloads) but not import/push it anywhere
+
+
 ## Tools
 
 ### bitbucket-cli - 2019
