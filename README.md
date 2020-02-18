@@ -158,3 +158,19 @@ Create an initial page and then force push the new git repo. The wiki content wi
 * Links seemed to work
 * images links needed conversion from mediawiki to Markdown
 * headers need converting to markdown
+
+
+## Notes
+
+From https://community.atlassian.com/t5/Bitbucket-articles/What-to-do-with-your-Mercurial-repos-when-Bitbucket-sunsets/ba-p/1155380/page/14?utm_campaign=immediate_general_comment&utm_content=topic&utm_medium=email&utm_source=atlcomm
+
+> github's hg importer messes up the order of merge parents
+> ... hg-fast-export gets it right:
+> 
+> https://github.com/frej/fast-export/
+>
+> If you use bookmarks in mercurial, hg-fast-export can't deal with them though. I made a tool that wraps hg-fast-export, first converting bookmarks to named branches so it can deal with them:
+> 
+> https://github.com/chrisjbillington/hg-export-tool
+
+
