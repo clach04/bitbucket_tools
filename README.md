@@ -28,6 +28,13 @@ https://bitbucket.org/edrandall/bitbucket-hg-to-git
 
 creates new BitBucket git repos from mercurial ones. Handles some meta data/tags -  handles meta data link description and private repos.
 
+### bitbucket-hg-exporter
+
+UNTESTED - handles:
+
+> pull request history, issue trackers, wikis, forks, attachments and commit comments
+
+https://github.com/philipstarkey/bitbucket-hg-exporter
 
 ### kick the bitbucket escape-bitbucket
 
