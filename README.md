@@ -1,6 +1,6 @@
 # bitbucket tools
 
-random tools for dealing with bitbucket.org repos
+random tools for dealing with bitbucket.org repos. Created as https://community.atlassian.com/t5/Bitbucket-articles/What-to-do-with-your-Mercurial-repos-when-Bitbucket-sunsets is a very long thread and difficult to search.
 
 Getting my notes off my machine and in a shareable state.
 
@@ -68,6 +68,13 @@ UNTESTED
 
 Perl script - not sure how complete
 https://github.com/devzendo/hgignore-to-gitignore
+
+### Maven POM updates 
+
+UNTESTED
+
+https://github.com/devzendo/bitbucket-to-github-pom-scm
+
 
 ## Migrating away from BitBucket
 
