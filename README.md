@@ -30,11 +30,20 @@ creates new BitBucket git repos from mercurial ones. Handles some meta data/tags
 
 ### bitbucket-hg-exporter
 
-UNTESTED - handles:
+UNTESTED/partially tested - claims to handle:
 
 > pull request history, issue trackers, wikis, forks, attachments and commit comments
 
 https://github.com/philipstarkey/bitbucket-hg-exporter
+
+Large histories take a long time, one (Jython 2.x) project I had was running for a day and was still chugging away. Handled import of a small project fairly well.
+
+Appeared to handle code (branches) and project meta data.
+
+  * Wiki not handled at all.
+  * Downloads untested so far.
+  * Avatar/icons untested so far (failed large project did appear to persist to local disk)
+  * Issues handled BUT prompts before import (can only import once, unlike specific issue migration tools below) so this requires interaction.
 
 ### kick the bitbucket escape-bitbucket
 
