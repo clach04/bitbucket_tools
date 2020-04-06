@@ -2,6 +2,8 @@
 
 random tools for dealing with bitbucket.org repos. Created as https://community.atlassian.com/t5/Bitbucket-articles/What-to-do-with-your-Mercurial-repos-when-Bitbucket-sunsets is a very long thread and difficult to search.
 
+This repo contains dump_repos.py which will dump most things to local file system for offline backup. It does NOT import or convert it.
+
 Getting my notes off my machine and in a shareable state.
 
 TL;DR check out:
