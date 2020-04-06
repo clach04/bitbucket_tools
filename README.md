@@ -94,6 +94,14 @@ UNTESTED
 https://github.com/devzendo/bitbucket-to-github-pom-scm
 
 
+
+### Sync - Git-hg Mirror
+
+UNTESTED
+
+https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git repos) in sync in one direction or bidirectionally. It's also open source and you can run it yourself too. Only deals with code, so no wiki or issues.
+
+
 ## Migrating away from BitBucket
 
 Lots of options, none complete. https://medium.com/collaborne-engineering/how-to-migrate-a-private-repository-from-bitbucket-to-github-6cddedd5d73 is a good overview on manually migrating **code only**.
