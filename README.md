@@ -57,6 +57,13 @@ UNTESTED - appears to be code and wiki only, appears to handle OAuth. Based on r
 
 https://github.com/samkuehn/bitbucket-backup
 
+### BBMigrate
+
+UNTESTED - shell scripts to dump/export to local file system. May handle Pull Requests - looks like its missing most metadata.
+WARNING does not appear to handle downloads based on readme
+https://bitbucket.org/Rarified/bbmigrate/src/master/
+
+
 ### bitbucket-issues-to-github
 
 UNTESTED
