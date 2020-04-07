@@ -63,7 +63,7 @@ https://github.com/samkuehn/bitbucket-backup
 
 ### BBMigrate
 
-UNTESTED - shell scripts to dump/export to local file system. May handle Pull Requests - looks like its missing most metadata.
+UNTESTED - shell scripts to dump/export to local file system. May handle Pull Requests - looks like its missing most metadata. And the generated commands do not only retrieve the owner's repositories, they clone all of the repositories referred to as the source for pull requests.  Those repositories too will disappear after the purge.
 WARNING does not appear to handle downloads based on readme
 https://bitbucket.org/Rarified/bbmigrate/src/master/
 
