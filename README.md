@@ -46,6 +46,8 @@ Appeared to handle code (branches) and project meta data.
   * Downloads untested so far.
   * Avatar/icons untested so far (failed large project did appear to persist to local disk)
   * Issues handled BUT prompts before import (can only import once, unlike specific issue migration tools below) so this requires interaction.
+ 
+Update 7th April 2020: v0.7.0 released - claims to decrease the download time. Can also use a local hg->git conversion tool (such as [hg-export-tool](https://github.com/chrisjbillington/hg-export-tool) instead of the GitHub source importer which has better handling of UTF8 charcters, author attributions and mercurial branches with multiple heads. I have not yet tested these improvements.
 
 ### kick the bitbucket escape-bitbucket
 
