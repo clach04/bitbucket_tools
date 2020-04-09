@@ -96,8 +96,8 @@ def doit():
         log.info('%s (%s) project_name %r', 'private' if project['is_private'] else 'public', project['scm'], project_name)
 
     # TODO Create repo (with all text meta data)
-    # TODO upload addition meta data, e.g. logo
     # TODO push --mirror repo
+    # TODO upload additional meta data, e.g. logo
     # TODO Create wiki repo
     # TODO push wiki
     # TODO upload downloads
