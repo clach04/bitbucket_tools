@@ -40,7 +40,7 @@ def safe_mkdir(newdir):
     result_dir = os.path.abspath(newdir)
     try:
         os.makedirs(result_dir)
-    except OSError, info:
+    except OSError as info:
         if info.errno == 17 and os.path.isdir(result_dir):
             pass
         else:
