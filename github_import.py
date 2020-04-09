@@ -102,6 +102,8 @@ def doit():
     f.close()
 
     project_name_search = 'vorton'  # DEBUG
+    project_name_search = 'dbapi-compliance'  # DEBUG - git repo
+
     found_project = None
     for project in project_list:
         project_name = project['name']
@@ -110,6 +112,8 @@ def doit():
         project_slug = project['slug']
         log.info('%s (%s) project_name %r', 'private' if project['is_private'] else 'public', project['scm'], project_name)
 
+    # TODO better filtering for project name
+    # TODO hg2git conversion
     # TODO Create repo (with all text meta data)
     # TODO push --mirror repo
     # TODO upload additional meta data, e.g. logo
@@ -117,10 +121,10 @@ def doit():
     # TODO push wiki
     # TODO upload downloads
     # TODO upload/import issues
-    """
+    #"""
     project = found_project
     new_repo_name = project['name']
-    new_repo_name = 'test_curl'  # DEBUG
+    #new_repo_name = 'test_curl'  # DEBUG
     #project['description'] = 'test curl description'  # DEBUG WORKS
     #project['description'] = 'x' * 201  # DEBUG WORKS
 
@@ -130,7 +134,11 @@ def doit():
 
     result = r.create_repo(new_repo_name, private=project['is_private'], has_wiki=project['has_wiki'], has_issues=project['has_issues'], description=project['description'], homepage=project['website'])
     print(result)
-    """
+    print(json.dumps(result, indent=4))
+
+    git_cmd = 'git -C %s push --mirror %s' % (dir_name, result['clone_url'])
+    subprocess.run(git_cmd, check=True)
+    #"""
 
 
 def main(argv=None):
