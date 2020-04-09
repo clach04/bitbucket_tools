@@ -32,6 +32,7 @@ creates new BitBucket git repos from mercurial ones. Handles some meta data/tags
 
 ### bitbucket-hg-exporter
 
+Does NOT handle private repositories (loops forever every 30 seconds with login failure - https://github.com/philipstarkey/bitbucket-hg-exporter/blob/master/bitbucket_hg_exporter/__main__.py#L623 )
 UNTESTED/partially tested - claims to handle:
 
 > pull request history, issue trackers, wikis, forks, attachments and commit comments
