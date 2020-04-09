@@ -59,7 +59,7 @@ https://magnushoff.com/blog/kick-the-bitbucket/
 
 ### bitbucket-backup
 
-UNTESTED - appears to be code and wiki only, appears to handle OAuth. Based on readme https://github.com/clach04/bitbucket_tools/blob/master/dump_repos.py is more complete if login/password is a viable option for export.
+UNTESTED - appears to be code and wiki only, appears to handle OAuth. Based on readmeit appears that https://github.com/clach04/bitbucket_tools/blob/master/dump_repos.py is more complete if login/password is a viable option for export.
 
 https://github.com/samkuehn/bitbucket-backup
 
