@@ -72,9 +72,18 @@ class EasyGitHubAPI():
         else:
             self.headers = None
 
-    def create_repo(self, reponame):
+    def create_repo(self, name, private=False, has_wiki=False, has_issues=False, description=None, homepage=None):
+        # https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated-user
         url = 'https://api.github.com/user/repos'
-        dict_payload = {'name': reponame}
+        dict_payload = {
+            'name': name,
+            'private': private,
+            'has_wiki': has_wiki,
+            'has_issues': has_issues,
+            'description': description.replace('\r', ' ').replace('\n', ' '),  # Bitbucket supported newlines (and possibly longer descriptions?)
+            'homepage': homepage
+            }
+        #import pdb ; pdb.set_trace()
         return post_url_json(url, dict_payload, headers=self.headers)
 
 
@@ -90,8 +99,12 @@ def doit():
     project_list = json.load(f)
     f.close()
 
+    project_name_search = 'vorton'  # DEBUG
+    found_project = None
     for project in project_list:
         project_name = project['name']
+        if project_name == project_name_search:
+            found_project = project
         project_slug = project['slug']
         log.info('%s (%s) project_name %r', 'private' if project['is_private'] else 'public', project['scm'], project_name)
 
@@ -103,8 +116,12 @@ def doit():
     # TODO upload downloads
     # TODO upload/import issues
     """
-    new_repo_name = 'test_curl'
-    result = r.create_repo(new_repo_name)
+    project = found_project
+    new_repo_name = project['name']
+    new_repo_name = 'test_curl'  # DEBUG
+    #project['description'] = 'test curl description'  # DEBUG WORKS
+    #project['description'] = 'x' * 201  # DEBUG WORKS
+    result = r.create_repo(new_repo_name, private=project['is_private'], has_wiki=project['has_wiki'], has_issues=project['has_issues'], description=project['description'], homepage=project['website'])
     print(result)
     """
 
