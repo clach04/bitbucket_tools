@@ -68,6 +68,15 @@ UNTESTED - shell scripts to dump/export to local file system. May handle Pull Re
 WARNING does not appear to handle downloads based on readme
 https://bitbucket.org/Rarified/bbmigrate/src/master/
 
+### rerefcommitjson
+
+UNTESTED
+
+https://git.sr.ht/~edik/rerefcommitjson
+
+[rerefcommitjson](https://git.sr.ht/~edik/rerefcommitjson) converts all commit hashes in a [Bitbucket issue JSON dump](https://confluence.atlassian.com/bitbucket/export-or-import-issue-data-330797432.html) from hg to git. See the [example section](https://git.sr.ht/~edik/rerefcommitjson#example-ii) for details and usage warnings.
+
+Philip Starkey's [bitbucket-hg-exporter](https://github.com/philipstarkey/bitbucket-hg-exporter/) can also translate hashes, but [only if they are marked up](https://github.com/philipstarkey/bitbucket-hg-exporter/blob/bb89520c68da63feb9140987d5150d442fdb4283/bitbucket_hg_exporter/hg2git.py#L83). rerefcommitjson, however, is able to translate [markup-less hashes](https://confluence.atlassian.com/bitbucket/mark-up-comments-305037452.html#Markupcomments-Changeset) too.
 
 ### bitbucket-issues-to-github
 
