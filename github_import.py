@@ -67,6 +67,8 @@ class EasyGitHubAPI():
         assert username is not None, 'need a username, set OS variable GH_USERNAME'
         self.repo_info = {'username': username, 'secret': password}
         if password:
+            # Warning this approach won't work at some point (2020 - September/October/November
+            # https://developer.github.com/changes/2020-02-14-deprecating-password-auth/
             encoded_auth = base64.b64encode("{username}:{secret}".format(**self.repo_info).encode()).decode()
             self.headers = dict([("Authorization", "Basic {}".format(encoded_auth))])
         else:
