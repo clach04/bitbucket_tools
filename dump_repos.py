@@ -83,6 +83,16 @@ def get_list(url, headers=None):
     return values
 
 
+def gen_local_project_dir_name(project_metadata):
+    if project_metadata['is_private']:
+        dir_name_list = ['private']
+    else:
+        dir_name_list = ['public']
+    dir_name_list.append(project_metadata['slug'])
+    dir_name = os.path.join(*dir_name_list)
+    return dir_name
+
+
 class EasyBitBucketAPI():
     def __init__(self, username, password=None, project_owner=None):
         assert username is not None, 'need a username, set OS variable BB_USERNAME'
@@ -178,12 +188,7 @@ class EasyBitBucketAPI():
         log.debug('\thas_wiki %r', project_metadata['has_wiki'])
         log.debug('\tavatar %r', project_metadata['links']['avatar'])
         log.debug('\tis_private %r', project_metadata['is_private'])
-        if project_metadata['is_private']:
-            dir_name_list = ['private']
-        else:
-            dir_name_list = ['public']
-        dir_name_list.append(project_slug)
-        dir_name = os.path.join(*dir_name_list)
+        dir_name = gen_local_project_dir_name(project_metadata)
         safe_mkdir(dir_name)
         image_filename = dir_name +'.png'  # assume png
         #image = get_url(project_metadata['links']['avatar']['href'], headers=self.headers)

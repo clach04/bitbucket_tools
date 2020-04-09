@@ -121,6 +121,11 @@ def doit():
     new_repo_name = 'test_curl'  # DEBUG
     #project['description'] = 'test curl description'  # DEBUG WORKS
     #project['description'] = 'x' * 201  # DEBUG WORKS
+
+    dir_name = dump_repos.gen_local_project_dir_name(project)
+    code_dirname = os.path.join(dir_name, 'code')
+    print(repr(code_dirname))
+
     result = r.create_repo(new_repo_name, private=project['is_private'], has_wiki=project['has_wiki'], has_issues=project['has_issues'], description=project['description'], homepage=project['website'])
     print(result)
     """
