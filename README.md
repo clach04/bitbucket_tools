@@ -114,6 +114,12 @@ UNTESTED
 
 https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git repos) in sync in one direction or bidirectionally. It's also open source and you can run it yourself too. Only deals with code, so no wiki or issues.
 
+## Alternate hosting
+
+### Heptapod
+
+[Heptapod](https://heptapod.net/) is a friendly fork of GitLab that supports mercurial. They offer free hosting for Open Source projects within reason, and they say that they'll offer commercial hosting for non-open-source projects soon. For the announcement about hosting, see [this blog post](https://heptapod.net/a-public-heptapod-for-free-and-open-source-software.html).
+
 
 ## Migrating away from BitBucket
 
