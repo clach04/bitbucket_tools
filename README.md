@@ -132,7 +132,9 @@ For the announcement about FOSS hosting, see [this blog post](https://heptapod.n
 ### GitHub
 
 In terms of features comparable feature set to BitBucket, in terms of migration tools very basic.
-Public hg/git repos can be imported **very** easily. Unclear on how branches are imported. Supports private repos if password is provided, ONLY handles repos (does not handle wiki migration, downloads, project avatar/logo, issues, PRs).
+
+Public hg/git repos can be imported **very** easily. Unclear on how branches are imported (multiple heads can be an issue). Supports private repos if password is provided (application passwords can be used if 2FA is used), ONLY handles repos (does not handle wiki migration, downloads, project avatar/logo, issues, PRs).
+
 Issues seen with utf8 characters in commit messages.
 
 ## Migrating away from BitBucket
