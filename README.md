@@ -122,6 +122,9 @@ https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git re
 
 For the announcement about FOSS hosting, see [this blog post](https://heptapod.net/a-public-heptapod-for-free-and-open-source-software.html). For the announcement of commercial hosting, see [this one](https://heptapod.net/heptapod-commercial-service-enters-free-public-beta.html)
 
+### GitHub
+
+In terms of features comparable feature set to BitBucket, in terms of migration tools very basic. Public hg/git repos can be imported **very** easily. Unclear on how branches are imported. Does not support private repos and ONLY handles repos (does not handle wiki migration, downloads, project avatar/logo, issues, PRs).
 
 ## Migrating away from BitBucket
 
