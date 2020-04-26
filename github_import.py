@@ -94,7 +94,7 @@ class EasyGitHubAPI():
 
 def doit():
     username = os.environ.get('GH_USERNAME') or os.environ.get('USERNAME') or os.environ.get('USER')
-    password_prompt = 'GitHub password for user %s: ' % username
+    password_prompt = 'GitHub password (or Personal access token) for user %s: ' % username
     password = os.environ.get('GH_PASSWORD') or getpass(password_prompt)
     r = EasyGitHubAPI(username, password)
 
