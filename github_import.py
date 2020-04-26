@@ -77,6 +77,7 @@ class EasyGitHubAPI():
     def create_repo(self, name, private=False, has_wiki=False, has_issues=False, description=None, homepage=None):
         # https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated-user
         url = 'https://api.github.com/user/repos'
+        # TODO license
         dict_payload = {
             'name': name,
             'private': private,
@@ -115,6 +116,7 @@ def doit():
     # TODO better filtering for project name
     # TODO hg2git conversion
     # TODO Create repo (with all text meta data)
+    # upload repository image / avatar
     # TODO push --mirror repo
     # TODO upload additional meta data, e.g. logo
     # TODO Create wiki repo
