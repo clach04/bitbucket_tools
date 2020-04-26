@@ -123,7 +123,7 @@ def doit():
     # TODO Create wiki repo
     # TODO push wiki
     # TODO upload downloads - consider https://github.com/plus3it/satsuki - https://pypi.org/project/PyGithub/
-    # TODO upload/import issues
+    # TODO upload/import issues - https://pypi.org/project/tratihubis/
     #"""
     project = found_project
     new_repo_name = project['name']
