@@ -122,7 +122,7 @@ def doit():
     # TODO upload additional meta data, e.g. logo
     # TODO Create wiki repo
     # TODO push wiki
-    # TODO upload downloads - consider https://pypi.org/project/PyGithub/
+    # TODO upload downloads - consider https://github.com/plus3it/satsuki - https://pypi.org/project/PyGithub/
     # TODO upload/import issues
     #"""
     project = found_project
