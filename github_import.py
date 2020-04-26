@@ -115,11 +115,11 @@ def doit():
 
     # TODO better filtering for project name
     # TODO Review https://pypi.org/project/PyGithub/ - may help with some future TODO items
-    # TODO hg2git conversion
-    # TODO Create repo (with all text meta data)
+    # DONE Create repo (with all text meta data)
     # upload repository image / avatar
-    # TODO push --mirror repo
     # TODO upload additional meta data, e.g. logo
+    # TODO hg2git conversion
+    # DONE push --mirror repo
     # TODO Create wiki repo
     # TODO push wiki
     # TODO upload downloads - consider https://github.com/plus3it/satsuki - https://pypi.org/project/PyGithub/
