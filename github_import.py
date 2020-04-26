@@ -114,6 +114,7 @@ def doit():
         log.info('%s (%s) project_name %r', 'private' if project['is_private'] else 'public', project['scm'], project_name)
 
     # TODO better filtering for project name
+    # TODO Review https://pypi.org/project/PyGithub/ - may help with some future TODO items
     # TODO hg2git conversion
     # TODO Create repo (with all text meta data)
     # upload repository image / avatar
