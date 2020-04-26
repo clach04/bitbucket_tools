@@ -77,13 +77,15 @@ class EasyGitHubAPI():
     def create_repo(self, name, private=False, has_wiki=False, has_issues=False, description=None, homepage=None):
         # https://developer.github.com/v3/repos/#create-a-repository-for-the-authenticated-user
         url = 'https://api.github.com/user/repos'
+        if description:
+            description = description.replace('\r', ' ').replace('\n', ' ')  # Bitbucket supported newlines (and possibly longer descriptions?)
         # TODO license
         dict_payload = {
             'name': name,
             'private': private,
             'has_wiki': has_wiki,
             'has_issues': has_issues,
-            'description': description.replace('\r', ' ').replace('\n', ' '),  # Bitbucket supported newlines (and possibly longer descriptions?)
+            'description': description,
             'homepage': homepage
             }
         #import pdb ; pdb.set_trace()
