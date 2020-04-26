@@ -69,6 +69,13 @@ UNTESTED - shell scripts to dump/export to local file system. May handle Pull Re
 WARNING does not appear to handle downloads based on readme
 https://bitbucket.org/Rarified/bbmigrate/src/master/
 
+
+### bitbucket2github
+
+UNTESTED Python script, appears to use GitHub import service so same limitations as GitHub but it it does automate all repo imports so fast for simple code only import
+
+https://github.com/brunogfranca/bitbucket2github
+
 ### rerefcommitjson
 
 UNTESTED
@@ -124,7 +131,9 @@ For the announcement about FOSS hosting, see [this blog post](https://heptapod.n
 
 ### GitHub
 
-In terms of features comparable feature set to BitBucket, in terms of migration tools very basic. Public hg/git repos can be imported **very** easily. Unclear on how branches are imported. Does not support private repos and ONLY handles repos (does not handle wiki migration, downloads, project avatar/logo, issues, PRs).
+In terms of features comparable feature set to BitBucket, in terms of migration tools very basic.
+Public hg/git repos can be imported **very** easily. Unclear on how branches are imported. Supports private repos if password is provided, ONLY handles repos (does not handle wiki migration, downloads, project avatar/logo, issues, PRs).
+Issues seen with utf8 characters in commit messages.
 
 ## Migrating away from BitBucket
 
