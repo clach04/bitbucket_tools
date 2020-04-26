@@ -118,7 +118,9 @@ https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git re
 
 ### Heptapod
 
-[Heptapod](https://heptapod.net/) is a friendly fork of GitLab that supports mercurial. They offer free hosting for Open Source projects within reason, and they say that they'll offer commercial hosting for non-open-source projects soon. For the announcement about hosting, see [this blog post](https://heptapod.net/a-public-heptapod-for-free-and-open-source-software.html).
+[Heptapod](https://heptapod.net/) is a friendly fork of GitLab that supports mercurial. They offer free hosting for Open Source projects within reason on [foss.heptapod.net](https://foss.heptapod.net), and commercial hosting on [heptapod.host](https://about.heptapod.host) (currently in free of charge beta).
+
+For the announcement about FOSS hosting, see [this blog post](https://heptapod.net/a-public-heptapod-for-free-and-open-source-software.html). For the announcement of commercial hosting, see [this one](https://heptapod.net/heptapod-commercial-service-enters-free-public-beta.html)
 
 
 ## Migrating away from BitBucket
