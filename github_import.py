@@ -96,6 +96,7 @@ class EasyGitHubAPI():
         url = 'https://api.github.com/repos/' +self.repo_info['username'] + '/' + name
         print(url)
         req = Request(url, headers=self.headers, method='DELETE') # WARNING py3 only method
+        # See https://stackoverflow.com/questions/111945/is-there-any-way-to-do-http-put-in-python for py2 notes
         f = urlopen(req)
         response_str = f.read()
         f.close()
