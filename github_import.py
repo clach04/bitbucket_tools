@@ -91,6 +91,17 @@ class EasyGitHubAPI():
         #import pdb ; pdb.set_trace()
         return post_url_json(url, dict_payload, headers=self.headers)
 
+    def delete_repo(self, name):
+        # https://developer.github.com/v3/repos/#delete-a-repository
+        url = 'https://api.github.com/repos/' +self.repo_info['username'] + '/' + name
+        print(url)
+        req = Request(url, headers=self.headers, method='DELETE') # WARNING py3 only method
+        f = urlopen(req)
+        response_str = f.read()
+        f.close()
+        assert response_str == b''
+        return response_str
+
 
 def doit():
     username = os.environ.get('GH_USERNAME') or os.environ.get('USERNAME') or os.environ.get('USER')
