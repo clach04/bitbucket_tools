@@ -95,7 +95,7 @@ https://github.com/fkirc/bitbucket-issues-to-github
 
 ### bitbucket-issue-migration
 
-UNTESTED
+UNTESTED - doesn't handle attachments in issues
 
 https://github.com/jeffwidman/bitbucket-issue-migration
 
