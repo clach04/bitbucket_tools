@@ -76,6 +76,16 @@ UNTESTED Python script, appears to use GitHub import service so same limitations
 
 https://github.com/brunogfranca/bitbucket2github
 
+
+### invert bucket
+
+UNTESTED
+
+Appears to handle code repo and issues only
+
+https://hg.sr.ht/~sircmpwn/invertbucket
+
+
 ### rerefcommitjson
 
 UNTESTED
