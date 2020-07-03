@@ -81,7 +81,7 @@ https://github.com/brunogfranca/bitbucket2github
 
 UNTESTED
 
-Appears to handle code repo and issues only
+Appears to handle code repo and issues only; issue migration results in corrupt issue cross references. Does NOT handle wiki (sourcehut does not offer hg wiki), does not handle download attachments.
 
 https://hg.sr.ht/~sircmpwn/invertbucket
 
@@ -138,6 +138,12 @@ https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git re
 [Heptapod](https://heptapod.net/) is a friendly fork of GitLab that supports mercurial. They offer free hosting for Open Source projects within reason on [foss.heptapod.net](https://foss.heptapod.net), and commercial hosting on [heptapod.host](https://about.heptapod.host) (currently in free of charge beta).
 
 For the announcement about FOSS hosting, see [this blog post](https://heptapod.net/a-public-heptapod-for-free-and-open-source-software.html). For the announcement of commercial hosting, see [this one](https://heptapod.net/heptapod-commercial-service-enters-free-public-beta.html)
+
+### Sourcehut
+
+as of mid 2020 in free alpha testing. has both hg and git support.
+
+`invertbucket` can be used to partially migrate. It migrates code 100%. Issue migration is flawed (wrong issue numbers in cross refs). Wiki is NOT migrated and as of July 2020 only supports git wikis. There is no support for download attachments.
 
 ### GitHub
 
