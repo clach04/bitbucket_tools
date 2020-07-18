@@ -132,6 +132,14 @@ UNTESTED
 
 https://githgmirror.com/. It can keep a git and hg repo (or two hg or two git repos) in sync in one direction or bidirectionally. It's also open source and you can run it yourself too. Only deals with code, so no wiki or issues.
 
+
+## Tools hg to git
+
+  * https://github.com/kilork/hg-git-fast-import
+  * https://github.com/frej/fast-export/
+      * https://github.com/frej/fast-export/issues/132
+      * https://github.com/frej/fast-export/pull/133
+
 ## Alternate hosting
 
 ### Heptapod
