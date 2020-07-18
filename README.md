@@ -79,9 +79,9 @@ https://github.com/brunogfranca/bitbucket2github
 
 ### invert bucket
 
-UNTESTED
+Needs work
 
-Appears to handle code repo and issues only; issue migration results in corrupt issue cross references. Does NOT handle wiki (sourcehut does not offer hg wiki), does not handle download attachments.
+Appears to handle code repo and issues only; issue migration results in corrupt issue cross references, creates issue tracker (todo) whether original project had one or not. Does NOT handle wiki (sourcehut does not offer hg wiki), does not handle download attachments.
 
 https://hg.sr.ht/~sircmpwn/invertbucket
 
