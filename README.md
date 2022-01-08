@@ -4,6 +4,8 @@ random tools for dealing with bitbucket.org repos. Created as https://community.
 
 This repo contains dump_repos.py which will dump most things to local file system for offline backup. It does NOT import or convert it.
 
+If you have lost content, check out https://bitbucket-archive.softwareheritage.org/ they do not appear to have a complete back up bit there is a good chance that your code is there.
+
 Getting my notes off my machine and in a shareable state.
 
 TL;DR check out:
